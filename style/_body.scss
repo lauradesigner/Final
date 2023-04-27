@@ -1,0 +1,32 @@
+body {
+  background-color: orange;
+}
+//having grids in everything except in the hero image section
+.entirepage {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+p {
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+  font-size: 50px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+//section of 2 UCF images and two text to be black
+.background {
+  background-color: black;
+}
+#small-text {
+  color: white;
+}
+#picture {
+  max-width: 100%;
+}

@@ -1,0 +1,21 @@
+.up {
+  font-size: 18px;
+  color: black;
+  max-width: 20%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 18px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+.up:hover {
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+.up a {
+  text-decoration: none;
+  color: black;
+}

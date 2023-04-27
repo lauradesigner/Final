@@ -1,0 +1,126 @@
+
+.grid-container-first {
+  //one paragraph plus student image
+  display: grid;
+  row-gap: 5px;
+  grid-template-columns: auto;
+  padding: 10px;
+  margin: 10px;
+}
+.grid-container-second {
+  //1 UCF images plus text
+  display: grid;
+  grid-template-columns: auto;
+  padding: 25px;
+  margin: 10px;
+
+}
+.grid-container-third {
+  // 1 UCF image plus text
+  display: grid;
+  grid-template-columns: auto;
+  padding: 25px;
+  margin: 10px;
+}
+
+.grid-container-fourth {
+  //section of no images
+  display: grid;
+  grid-template-columns: auto;
+  padding: 5px;
+}
+
+//medium screen sizes
+@media only screen and (min-width: 750px) {
+  .grid-container-first {
+    display: grid;
+    column-gap: 1px;
+    grid-template-columns: auto auto;
+    padding: 1px;
+  }
+  #left-column {
+    padding: 5px;
+  }
+  #right-column {
+    position: left;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 30spx;
+  }
+  .grid-container-fourth{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  
+}
+
+ /* BIG SCREEN SIZES*/
+@media only screen and (min-width: 1000px) {   
+// first section containing 1 image of student and text
+.grid-container-first {
+  display: grid;
+  column-gap: 1px;
+  grid-template-columns: auto auto;
+  padding: 1px;
+}
+  #left-column {
+    padding: 40px;
+    margin: 1px;
+  }
+  #right-column {
+    padding: 10px;
+    margin: 1px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: left;
+  }
+ 
+  //second section containing 1 image plus text
+  .grid-container-second {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+  }
+    .grid-item1 {
+      padding: 1px;
+      margin: 1px;      
+    }
+
+    .grid-item2 {
+      text-align: center; 
+    }
+  //third section containing 1 image plus text
+  .grid-container-third {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+    
+  }
+  .grid-item3 {
+    padding: 1px;
+    margin: 1px;
+  }
+
+  .grid-item4 {
+    text-align: center;
+  }
+  .background{
+    padding: 40px;
+  }
+  
+
+  //fourth section containing just text
+  .grid-container-fourth{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-item5{
+    font-size: 18px;
+  }
+  
+}  

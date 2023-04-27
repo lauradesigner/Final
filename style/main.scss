@@ -1,0 +1,16 @@
+@import 'mixins';
+@import '_body';
+@import '_footer';
+@import '_grid';
+@import '_header';
+@import 'variables';
+
+.grid-item2, .grid-item4 {
+    @include style;
+}
+.grid-item5 {
+    @include style2;
+}
+body {
+    @include color;
+}

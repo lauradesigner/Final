@@ -1,0 +1,33 @@
+//for second and third section
+@mixin style {
+  letter-spacing: $letterSpacing;
+  padding: $padding;
+  margin: $margin;
+}
+
+//for last section
+@mixin style2 {
+  letter-spacing: $letterSpacing;
+  line-height: $height;
+  padding: $padding;
+  margin: $margin;
+  font-size: $fontsize;
+}
+
+@mixin color {
+    //even numbers will receive orange background
+    @for $i from 1 through 4 {
+      @if $i % 2 == 0 {
+        
+        .grid-item#{$i}:hover {
+            background-color: orange;
+            transition-delay: .5s;
+            transition-duration: 2s;
+        }
+        
+        }
+     
+      }
+      
+    }
+  
